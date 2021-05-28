@@ -2,14 +2,17 @@
 ro.charger.enable_suspend=true
 
 # Graphics
-debug.sf.hw=1
 debug.gralloc.enable_fb_ubwc=1
 
 # LMKD
 ro.config.low_ram=false
+ro.lmk.log_stats=true
 
 # Incremental FS
 ro.incremental.enable=1
 
-# USAP
-persist.device_config.runtime_native.usap_pool_enabled=true
+# Force triple frame buffers
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
+# IORap
+ro.iorapd.enable=true
