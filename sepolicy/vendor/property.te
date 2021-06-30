@@ -1,7 +1,11 @@
 type hal_fingerprint_prop, property_type;
-type mlipay_prop, property_type;
-type thermal_engine_prop, property_type;
-type lirc_prop, property_type;
+type camera_prop, property_type;
 
 # Dirac
 type dirac_prop, property_type;
+
+type vendor_mlipay_prop, property_type;
+type vendor_thermal_engine_prop, property_type;
+type vendor_lirc_prop, property_type;
+type vendor_wfd_prop, property_type;
+type vendor_wlan_prop, property_type;
