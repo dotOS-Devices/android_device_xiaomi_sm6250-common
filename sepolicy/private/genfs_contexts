@@ -31,6 +31,8 @@ genfscon sysfs /devices/platform/soc/990000.i2c/i2c-2/2-0034/990000.i2c:qcom,smb
 genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix/wakeup/wakeup27   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-06/c440000.qcom,spmi:qcom,pmk8350@6:rtc@6100/wakeup/wakeup30   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:bolero-cdc/tx-macro/tx_swr_ctrl/wakeup/wakeup78   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display/hbm            u:object_r:sysfs_lcd_feature:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display/cabc           u:object_r:sysfs_lcd_feature:s0
 
 genfscon sysfs /devices/virtual/misc/msm_qcelp/wakeup48   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/misc/msm_alac/wakeup38   u:object_r:sysfs_wakeup:s0
