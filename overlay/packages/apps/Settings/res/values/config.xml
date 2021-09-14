@@ -32,4 +32,8 @@
 
   <!-- Device specific doze package -->
   <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
+
+  <!-- Adaptive Charging -->
+  <bool name="config_supportAdaptiveCharging">true</bool>
+
 </resources>
