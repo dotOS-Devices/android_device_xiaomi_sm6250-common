@@ -12,3 +12,6 @@ genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.q
 
 # Touchpanel
 genfscon sysfs /touchpanel                                      u:object_r:sysfs_touchpanel:s0
+
+genfscon sysfs /devices/platform/soc/890000.i2c/i2c-1/1-005a/wakeup/wakeup                                                                                                                          u:object_r:sysfs_wakeup:s0
+
