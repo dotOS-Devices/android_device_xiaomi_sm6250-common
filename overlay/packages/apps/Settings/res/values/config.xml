@@ -36,4 +36,7 @@
   <!-- Adaptive Charging -->
   <bool name="config_supportAdaptiveCharging">true</bool>
 
+  <!-- Smart Charging -->
+  <bool name="config_supportSmartCharging">true</bool>
+
 </resources>
