@@ -15,3 +15,5 @@ genfscon sysfs /touchpanel                                      u:object_r:sysfs
 
 genfscon sysfs /devices/platform/soc/890000.i2c/i2c-1/1-005a/wakeup/wakeup                                                                                                                          u:object_r:sysfs_wakeup:s0
 
+#ssr nodes
+genfscon sysfs /devices/platform/soc/5ab0000.qcom,venus/subsys1/name u:object_r:vendor_sysfs_ssr:s0
